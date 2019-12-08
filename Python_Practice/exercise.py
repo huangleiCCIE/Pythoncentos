@@ -365,3 +365,51 @@
 # for name,city in cities.items():
 #     print('省级名字:' +name)
 #     print('状况：'+city['conutry'] +' ' +str(city['renshu']))
+
+# a = input('Let me see if I can find you a Subaru')
+
+
+# a = input('需要多少桌位？\n')
+# a = int(a)
+# if a>8:
+#     print("没有空桌")
+# else:
+#     print("有空桌")
+
+# a = input("请输出10的倍数\n")
+# a = int(a)
+# if a % 10 == 0:
+#     print("是10的倍数")
+# else:
+#     print("不是10的倍数")
+
+# a = '输入1,2,3'
+# while a != 'quit':
+#     a = input(a)
+#     if a !='quit':
+#         print('我们会添加' + a)
+
+# a =  '输入年龄'
+# b = 1
+# while True:
+#     a = input(a)
+#     b = int(a)
+#     if 3< b <15:
+#         print('票价为10美元 ')
+#         break
+#     if b > 15:
+#         print('票价为15美元')
+#         break
+#     else:
+#         print('票价免费')
+#         break
+
+# a = 1
+# while True:
+#     print(a)
+
+sandwich_orders = ['a', 'b', 'c']
+finished_sandwiches = []
+
+
+

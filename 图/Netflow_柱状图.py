@@ -24,6 +24,23 @@ def mat_zhu(size_list, name_list):
 
     #绘制图形
     plt.show()
+def mat_zhu_mark(size_list, name_list, x_label, y_label, title):
+    #调节图形大小、宽、高
+    fig = plt.figure(figsize = (6,6))
+    ax = fig.add_subplot(111)
+
+    fig.autofmt_xdate() #当x轴太拥挤的时候可以让他自适应
+
+    ax.bar(name_list, size_list, width=0.5)
+
+    plt.rcParams['font.sans-serif']=['SimHei']
+    plt.title(title) #主题
+    plt.xlabel(x_label)  #x轴注释
+    plt.ylabel(y_label)  #y轴注释
+    #保存图片
+    plt.savefig('result.png')
+    #绘制图形
+    plt.show()
 
 if __name__ == '__main__':
     counters = [30, 53, 12, 45]   #y轴数据
